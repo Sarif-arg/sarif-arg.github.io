@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fincas Ros</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/canvg/dist/browser/canvg.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 	
 	<style>
@@ -66,17 +66,17 @@
 				// Obtener el contenido SVG
 				const response = await fetch(svgUrl);
 				const svgText = await response.text();
-	
+					
 				// Crear un elemento canvas temporal
 				const canvas = document.createElement('canvas');
 				const ctx = canvas.getContext('2d');
-	
-				// Renderizar el SVG en el canvas usando canvg
-				const v = await canvg.fromString(ctx, svgText);
+					
+				// Renderizar el SVG en el canvas usando Canvg
+				const v = Canvg.from(ctx, svgText); // Cambiado a Canvg.from
 				canvas.width = 9394; // Ancho del SVG
 				canvas.height = 4622; // Alto del SVG
 				await v.render();
-	
+					
 				// Crear un PDF con jsPDF
 				const { jsPDF } = window.jspdf;
 				const pdf = new jsPDF({
@@ -92,9 +92,9 @@
 				// Descargar el PDF
 				pdf.save('plano_fincas_ros.pdf');
 			} catch (error) {
-				console.error('Error al generar el PDF:', error);
-			}
-		});
+	                	console.error('Error al generar el PDF:', error);
+	            	}
+	        });
 	</script>
 </body>
 </html>
