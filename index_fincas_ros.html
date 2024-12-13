@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fincas Ros</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-    	<script src="https://cdn.jsdelivr.net/npm/svg2pdf.js/dist/svg2pdf.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/canvg/dist/browser/canvg.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 	
 	<style>
@@ -60,39 +60,41 @@
 	</script>
 	<script>
 		const svgUrl = 'https://sarif-arg.github.io/plano_fincas_ros.svg';
-
+	
 		document.getElementById('download-btn').addEventListener('click', async () => {
 			try {
-			// Obtener el contenido SVG
-			const response = await fetch(svgUrl);
-			const svgText = await response.text();
-
-			// Crear un elemento SVG temporal
-			const parser = new DOMParser();
-			const svgElement = parser.parseFromString(svgText, 'image/svg+xml').documentElement;
-
-			// Crear un PDF usando jsPDF
-			const { jsPDF } = window.jspdf;
-			const pdf = new jsPDF({
-				orientation: 'landscape', // Ajustar orientación según sea necesario
-				unit: 'px',
-			format: [9394, 4622], // Tamaño basado en las dimensiones del SVG
-                	});
-
-		// Convertir SVG a PDF
-		await svg2pdf(svgElement, pdf, {
-			x: 0,
-			y: 0,
-			width: 9394, // Ancho del SVG
-			height: 4622, // Alto del SVG
+				// Obtener el contenido SVG
+				const response = await fetch(svgUrl);
+				const svgText = await response.text();
+	
+				// Crear un elemento canvas temporal
+				const canvas = document.createElement('canvas');
+				const ctx = canvas.getContext('2d');
+	
+				// Renderizar el SVG en el canvas usando canvg
+				const v = await Canvg.fromString(ctx, svgText);
+				canvas.width = 9394; // Ancho del SVG
+				canvas.height = 4622; // Alto del SVG
+				await v.render();
+	
+				// Crear un PDF con jsPDF
+				const { jsPDF } = window.jspdf;
+				const pdf = new jsPDF({
+					orientation: 'landscape',
+					unit: 'px',
+					format: [9394, 4622],
+				});
+	
+				// Agregar el contenido del canvas al PDF
+				const imgData = canvas.toDataURL('image/png');
+				pdf.addImage(imgData, 'PNG', 0, 0, 9394, 4622);
+	
+				// Descargar el PDF
+				pdf.save('plano_fincas_ros.pdf');
+			} catch (error) {
+				console.error('Error al generar el PDF:', error);
+			}
 		});
-
-		// Descargar el PDF
-		pdf.save('plano_fincas_ros.pdf');
-	} catch (error) {
-		console.log('Error al generar el PDF:', error);
-	}
-	});
-    </script>
+	</script>
 </body>
 </html>
