@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fincas Ros</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 	
 	<style>
@@ -16,20 +14,6 @@
 			padding: 0;
 			margin: 0 auto;
 		}
-		#download-btn {
-	   	        margin: 10px;
-           		padding: 10px 20px;
-            		background-color: #007bff;
-           		color: white;
-           		border: none;
-          		border-radius: 5px;
-           		cursor: pointer;
-           		font-size: 16px;
-        	}
-        	#download-btn:hover {
-            		background-color: #0056b3;
-        	}
-
 	</style>
 </head>
 <body>
@@ -57,44 +41,6 @@
 
 		// Ajustar el mapa para mostrar completamente el SVG al cargar
 		map.fitBounds(bounds);
-	</script>
-	<script>
-		const svgUrl = 'https://sarif-arg.github.io/plano_fincas_ros.svg';
-	
-		document.getElementById('download-btn').addEventListener('click', async () => {
-			try {
-				// Obtener el contenido SVG
-				const response = await fetch(svgUrl);
-				const svgText = await response.text();
-					
-				// Crear un elemento canvas temporal
-				const canvas = document.createElement('canvas');
-				const ctx = canvas.getContext('2d');
-					
-				// Renderizar el SVG en el canvas usando Canvg
-				const v = canvg.from(ctx, svgText); // Cambiado a Canvg.from
-				canvas.width = 9394; // Ancho del SVG
-				canvas.height = 4622; // Alto del SVG
-				await v.render();
-					
-				// Crear un PDF con jsPDF
-				const { jsPDF } = window.jspdf;
-				const pdf = new jsPDF({
-					orientation: 'landscape',
-					unit: 'px',
-					format: [9394, 4622],
-				});
-	
-				// Agregar el contenido del canvas al PDF
-				const imgData = canvas.toDataURL('image/png');
-				pdf.addImage(imgData, 'PNG', 0, 0, 9394, 4622);
-	
-				// Descargar el PDF
-				pdf.save('plano_fincas_ros.pdf');
-			} catch (error) {
-	                	console.error('Error al generar el PDF:', error);
-	            	}
-	        });
 	</script>
 </body>
 </html>
