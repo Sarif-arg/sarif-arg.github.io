@@ -72,7 +72,7 @@
 				const ctx = canvas.getContext('2d');
 	
 				// Renderizar el SVG en el canvas usando canvg
-				const v = await Canvg.fromString(ctx, svgText);
+				const v = await canvg.fromString(ctx, svgText);
 				canvas.width = 9394; // Ancho del SVG
 				canvas.height = 4622; // Alto del SVG
 				await v.render();
