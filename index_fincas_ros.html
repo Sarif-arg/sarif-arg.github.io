@@ -3,8 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Leaflet Responsivo</title>
+	<title>Fincas Ros</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/svg2pdf.js/dist/svg2pdf.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	
 	<style>
 		#map {
 			height: 100vh; /* Altura total del viewport */
@@ -13,11 +16,25 @@
 			padding: 0;
 			margin: 0 auto;
 		}
+		#download-btn {
+	   	        margin: 10px;
+           		padding: 10px 20px;
+            		background-color: #007bff;
+           		color: white;
+           		border: none;
+          		border-radius: 5px;
+           		cursor: pointer;
+           		font-size: 16px;
+        	}
+        	#download-btn:hover {
+            		background-color: #0056b3;
+        	}
 
 	</style>
 </head>
 <body>
 	<div id="map"></div>
+	<button id="download-btn">Descargar como PDF</button>
 
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 	<script>
@@ -41,5 +58,41 @@
 		// Ajustar el mapa para mostrar completamente el SVG al cargar
 		map.fitBounds(bounds);
 	</script>
+	<script>
+		const svgUrl = 'https://sarif-arg.github.io/plano_fincas_ros.svg';
+
+		document.getElementById('download-btn').addEventListener('click', async () => {
+			try {
+			// Obtener el contenido SVG
+			const response = await fetch(svgUrl);
+			const svgText = await response.text();
+
+			// Crear un elemento SVG temporal
+			const parser = new DOMParser();
+			const svgElement = parser.parseFromString(svgText, 'image/svg+xml').documentElement;
+
+			// Crear un PDF usando jsPDF
+			const { jsPDF } = window.jspdf;
+			const pdf = new jsPDF({
+				orientation: 'landscape', // Ajustar orientación según sea necesario
+				unit: 'px',
+			format: [9394, 4622], // Tamaño basado en las dimensiones del SVG
+                	});
+
+		// Convertir SVG a PDF
+		await svg2pdf(svgElement, pdf, {
+			x: 0,
+			y: 0,
+			width: 9394, // Ancho del SVG
+			height: 4622, // Alto del SVG
+		});
+
+		// Descargar el PDF
+		pdf.save('plano_fincas_ros.pdf');
+	} catch (error) {
+		console.error('Error al generar el PDF:', error);
+	}
+	});
+    </script>
 </body>
 </html>
