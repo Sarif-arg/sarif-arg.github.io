@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fincas Ros</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+	<style>
+		#map {
+			height: 95vh; /* Altura total del viewport */
+			width: 95vw; /* Ancho total del viewport */
+			margin: 0;
+			padding: 0;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script>
+		// Dimensiones originales del SVG
+		const originalWidth = 3000;
+		const originalHeight = 1053;
+
+		// Crear el mapa con sistema de coordenadas simples
+		const map = L.map('map', {
+			crs: L.CRS.Simple, // Coordenadas simples
+			zoomSnap: 0.5,
+			minZoom: -5
+		});
+
+		// Definir los límites del mapa basados en las dimensiones del SVG
+		const bounds = [[0, 0], [originalHeight, originalWidth]];
+
+		// Agregar el archivo SVG como imagen (L.imageOverlay)
+		L.imageOverlay('https://sarif-arg.github.io/plano_portofino.svg', bounds).addTo(map);
+
+		// Ajustar el mapa para mostrar completamente el SVG al cargar
+		map.fitBounds(bounds);
+	</script>
+</body>
+</html>
