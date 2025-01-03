@@ -21,6 +21,193 @@
      id="defs2">
     <inkscape:path-effect
        effect="fillet_chamfer"
+       id="path-effect519"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,11.368184,0,1 @ F,0,0,1,0,12.10739,0,1 @ F,0,0,1,0,22.987244,0,1 @ F,0,0,1,0,17.895537,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect518"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,36.173014,0,1 @ F,0,0,1,0,8.2389,0,1 @ F,0,0,1,0,13.968742,0,1 @ F,0,0,1,0,22.149915,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect504"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,8.9501172,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,1,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,7.9834011,0,1 @ F,0,0,1,0,16.260852,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,11.754263,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect493"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,8.2246627,0,1 @ F,0,0,1,0,8.0059398,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect490"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,13.734507,0,1 @ F,0,0,1,0,8.2246324,0,1 @ F,0,0,1,0,11.970152,0,1 @ F,0,0,1,0,13.737195,0,1 @ F,0,0,1,0,4.7603688,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect476"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,7.9797975,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect475"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,7.753477,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect474"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,7.8242634,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect473"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,7.752208,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect445"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,8.6848178,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,11.441648,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect444"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,9.8054578,0,1 @ F,0,0,1,0,10.227296,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
        id="path-effect5"
        is_visible="true"
        lpeversion="1"
@@ -1552,9 +1739,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.21009177"
-     inkscape:cx="804.41039"
-     inkscape:cy="1639.7596"
+     inkscape:zoom="0.20518881"
+     inkscape:cx="1301.2406"
+     inkscape:cy="1483.9991"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1567,8 +1754,34 @@
      inkscape:showpageshadow="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     showguides="true"
-     inkscape:snap-global="true" />
+     showguides="false"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       position="1102.33,2014.4605"
+       orientation="0,-1"
+       id="guide490"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1980.3582,45.140114"
+       orientation="1,0"
+       id="guide515"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1972.1193,37.148104"
+       orientation="0,-1"
+       id="guide516"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="31.898155,80.935432"
+       orientation="0.99973333,-0.023092473"
+       id="guide517"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="89.558879,1747.2916"
+       orientation="0.48123886,-0.8765895"
+       id="guide518"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -1585,27 +1798,41 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       d="M 1980.344,2726.2704 V 109.35425 L 496.8086,898.75378 V 2726.2704 Z"
-       style="fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path847" />
+       style="fill:#999999;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 1980.3582,79.423032 V 2783.1845 a 8.2389,8.2389 135 0 1 -8.2389,8.2389 H 44.85547 a 13.649809,13.649809 45.661609 0 1 -13.646169,-13.965 L 69.630991,1114.0833 A 38.434121,38.434121 121.27844 0 1 89.55887,1081.2799 L 1948.6493,60.657878 a 21.407003,21.407003 30.616828 0 1 31.7089,18.765154 z"
+       id="path518"
+       inkscape:path-effect="#path-effect518"
+       inkscape:original-d="M 1980.3582,43.250018 V 2791.4234 H 30.886728 L 70.142487,1091.9393 Z" />
     <path
-       d="M 55.683487,99.435913 18.579733,120.34893 c -0.249414,0.14041 -0.4064,0.40252 -0.413456,0.68757 l -3.80753,160.93157 c -0.01094,0.45614 0.354188,0.82938 0.81033,0.82938 h 39.70408 c 0.448028,0 0.81033,-0.3623 0.81033,-0.80998 z"
-       style="fill:#37b44a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path865"
-       clip-path="url(#clipPath117)"
+       d="m 176.42168,55.971222 v 0.417336 h -7.87012 v -4.951236 l 5.89809,1.349023 c 0.15734,1.332794 0.90417,2.483202 1.97203,3.184877 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_13"
+       clip-path="url(#clipPath259)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <path
-       d="m 267.895,807.887 h -76.793 c -1.266,0 -2.297,-1.028 -2.297,-2.293 v -98.227 c 0,-1.269 1.031,-2.297 2.297,-2.297 h 76.793 z"
-       style="fill:#37b44a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.999262;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path881"
-       clip-path="url(#clipPath8)"
-       transform="matrix(3.5806164,0,0,3.4853924,-127.74399,-122.11066)" />
+       style="fill:#37b44a;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="M 503.46404,2726.2822 H 106.22656 A 11.81095,11.81095 45.710078 0 1 94.419234,2714.1785 L 133.30036,1145.8526 a 39.876395,39.876395 121.38199 0 1 20.74132,-34.0038 L 499.11911,923.26735 a 10.613794,10.613794 30.671761 0 1 15.70366,9.31369 l 0.009,1782.33296 a 11.368124,11.368124 134.99985 0 1 -11.36812,11.3682 z"
+       id="path486"
+       sodipodi:nodetypes="ccccc"
+       inkscape:path-effect="#path-effect519"
+       inkscape:original-d="M 514.83222,2726.2822 H 94.119166 L 133.87007,1122.8724 514.82268,914.6855 Z" />
     <path
-       d="m 375.387,805.59 c 0,1.269 -1.028,2.297 -2.297,2.297 H 267.895 V 705.07 H 373.09 c 1.269,0 2.297,1.028 2.297,2.297 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99926264;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path887"
-       clip-path="url(#clipPath7)"
-       transform="matrix(3.5806164,0,0,3.4853924,-127.74399,-122.11066)" />
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1868.532,370.30906 v 71.09851 l -58.758,13.47802 c 0.7327,-11.52674 -1.1994,-20.96034 -5.6357,-28.42687 z"
+       id="path507"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#37b44a;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1025.2145,718.11286 v 87.7735 a 8.2246627,8.2246627 45 0 0 8.2247,8.22466 h 173.0515 a 8.0059398,8.0059398 135 0 0 8.0059,-8.00594 V 614.53399 Z"
+       id="path493"
+       inkscape:path-effect="#path-effect493"
+       inkscape:original-d="m 1025.2145,718.11286 v 95.99816 h 189.2821 V 614.53399 Z" />
+    <path
+       id="rect445"
+       style="fill:#37b44a;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;paint-order:fill markers stroke"
+       d="M 556.97907,2335.335 H 831.4852 v 358.3575 H 559.7359 a 11.441648,11.441648 45 0 1 -11.44165,-11.4416 v -338.2311 a 8.6848178,8.6848178 135 0 1 8.68482,-8.6848 z"
+       inkscape:path-effect="#path-effect445"
+       inkscape:original-d="M 548.29425,2335.335 H 831.4852 v 358.3575 H 548.29425 Z" />
     <path
        d="M 1206.8593,1856.679 H 911.79489 c -4.5438,0 -8.22467,-3.5795 -8.22467,-7.992 v -342.3562 c 0,-4.4264 3.68087,-8.0059 8.22467,-8.0059 h 295.06441 c 4.5472,0 8.2246,3.5795 8.2246,8.0059 v 342.3562 c 0,4.4125 -3.6774,7.992 -8.2246,7.992 z"
        style="fill:#37b44a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -4397,29 +4624,15 @@
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_N_Lote_RF1" />
     <path
-       d="m 61.841929,102.99932 v -5.31636 c 0,-0.2921 0.156986,-0.560916 0.410633,-0.704144 L 103.32366,73.694072 c 0.5401,-0.305858 1.21002,0.08396 1.21002,0.704144 0,3.311525 10e-4,11.577108 0,14.130514 0,0.446264 -0.36265,0.808919 -0.81033,0.808919 l -15.146158,0.0095 c -0.140405,0 -0.27693,0.0374 -0.399697,0.106186 L 63.051957,103.70345 c -0.540103,0.30762 -1.210028,-0.0825 -1.210028,-0.70415 z"
-       style="fill:#37b44a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3333"
-       clip-path="url(#clipPath191)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       style="fill:#37b44a;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1010.6413,667.31682 v 139.42167 a 8.2246324,8.2246324 135 0 1 -8.2246,8.22463 H 858.58507 a 46.449113,46.449113 165.54904 0 0 -22.4494,5.78531 L 589.3557,956.98909 a 8.1076715,8.1076715 30.549039 0 1 -12.0262,-7.09784 v -52.42107 a 8.0642024,8.0642024 120.55372 0 1 4.16783,-7.06043 L 998.61636,660.21839 a 8.1075989,8.1075989 30.553723 0 1 12.02494,7.09843 z"
+       id="path490"
+       inkscape:path-effect="#path-effect490"
+       inkscape:original-d="M 1010.6413,653.58231 V 814.96312 H 846.61492 L 577.3295,963.62844 v -70.91863 z" />
     <path
-       d="M 124.61838,88.445827 V 69.05575 L 105.96949,79.5396 v 8.906227 c 0,0.448028 0.36371,0.810331 0.81033,0.810331 h 17.02823 c 0.44803,0 0.81033,-0.362303 0.81033,-0.810331 z"
-       style="fill:#37b44a;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3339"
-       clip-path="url(#clipPath219)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
-    <path
-       d="m 144.98459,67.407572 h -2.38125 c -0.44802,0 -0.81033,-0.364067 -0.81033,-0.810331 v -7.058377 h 3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_1"
-       clip-path="url(#clipPath175)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
-    <path
-       d="m 144.98459,59.538864 h 3.19158 v 7.868708 h -3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_2"
-       clip-path="url(#clipPath195)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1421.2091,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path446" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.52047px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00489829"
@@ -4432,11 +4645,9 @@
          y="64.328255"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.52047px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.00489829">2</tspan></text>
     <path
-       d="m 148.17617,59.538864 h 3.19158 v 7.868708 h -3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_3"
-       clip-path="url(#clipPath187)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1452.9584,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path448" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4450,11 +4661,9 @@
          y="593.54431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">3</tspan></text>
     <path
-       d="m 151.36775,59.538864 h 3.08117 v 7.868708 h -3.08117 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_4"
-       clip-path="url(#clipPath183)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1484.7077,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path450" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4468,11 +4677,9 @@
          y="593.63733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">4</tspan></text>
     <path
-       d="m 154.44892,59.538864 h 3.08116 v 7.868708 h -3.08116 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_5"
-       clip-path="url(#clipPath179)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1516.457,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path452" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4486,11 +4693,9 @@
          y="593.44769"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">5</tspan></text>
     <path
-       d="m 157.53008,59.538864 h 3.14889 v 7.868708 h -3.14889 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_6"
-       clip-path="url(#clipPath199)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1548.2063,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path454" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4504,11 +4709,9 @@
          y="593.54431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">6</tspan></text>
     <path
-       d="m 160.67897,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_7"
-       clip-path="url(#clipPath203)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1579.9556,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path456" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4522,11 +4725,9 @@
          y="593.54071"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">7</tspan></text>
     <path
-       d="m 163.82787,59.538864 h 3.1503 v 7.868708 h -3.1503 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_8"
-       clip-path="url(#clipPath207)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1611.7049,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path458" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4540,11 +4741,13 @@
          y="593.54071"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">8</tspan></text>
     <path
-       d="m 166.97817,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_9"
-       clip-path="url(#clipPath211)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1740.3126,489.384 v 31.23436 h -79.8861 V 489.384 Z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path477" />
+    <path
+       d="m 1643.4542,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path459" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4558,11 +4761,9 @@
          y="593.54071"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">9</tspan></text>
     <path
-       d="m 170.12812,59.538864 h 3.1489 v 7.868708 h -3.1489 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_10"
-       clip-path="url(#clipPath215)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1675.2035,520.61835 h 31.7493 v 77.52208 h -31.7493 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path461" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4576,11 +4777,11 @@
          y="593.54431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">10</tspan></text>
     <path
-       d="m 175.61699,67.407572 h -2.33997 v -7.868708 h 3.1503 v 7.058377 c 0,0.446264 -0.36406,0.810331 -0.81033,0.810331 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_11"
-       clip-path="url(#clipPath223)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1706.9527,520.61835 h 33.3599 v 69.7686 a 7.753477,7.753477 135 0 1 -7.7535,7.75348 h -25.6064 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path463"
+       inkscape:path-effect="#path-effect475"
+       inkscape:original-d="m 1706.9527,520.61835 h 33.3599 v 77.52208 h -33.3599 z" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4594,11 +4795,11 @@
          y="593.63733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">11</tspan></text>
     <path
-       d="m 184.29039,67.407572 h -2.33998 c -0.44803,0 -0.81033,-0.364067 -0.81033,-0.810331 v -7.058377 h 3.15031 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_21"
-       clip-path="url(#clipPath227)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1788.1847,520.50855 h 31.9642 v 77.52208 h -24.212 a 7.752208,7.752208 45 0 1 -7.7522,-7.75221 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path472"
+       inkscape:path-effect="#path-effect473"
+       inkscape:original-d="m 1788.1847,520.50855 h 31.9642 v 77.52208 h -31.9642 z" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4612,11 +4813,26 @@
          y="593.63733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">21</tspan></text>
     <path
-       d="m 184.28898,59.538864 h 3.1503 v 7.868708 h -3.1503 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_22"
-       clip-path="url(#clipPath231)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1884.0826,520.50855 h 31.9642 v 77.52208 h -31.9642 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path471" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1788.1793,489.40762 h 80.3527 v -48.00005 l -58.758,13.47802 c -2.2537,14.56077 -9.618,25.28962 -21.5947,32.56004 z"
+       id="path506"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       d="m 1868.5319,520.50855 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path478" />
+    <path
+       d="m 1852.1185,520.50855 h 31.9641 v 77.52208 h -31.9641 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path469" />
+    <path
+       d="m 1820.1543,520.50855 h 31.9642 v 77.52208 h -31.9642 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path467" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4629,12 +4845,6 @@
          x="1803.2729"
          y="593.63733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">22</tspan></text>
-    <path
-       d="m 187.43928,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_23"
-       clip-path="url(#clipPath235)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4647,12 +4857,6 @@
          x="1834.7642"
          y="593.54431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">23</tspan></text>
-    <path
-       d="m 190.58923,59.538864 h 3.1489 v 7.868708 h -3.1489 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_24"
-       clip-path="url(#clipPath263)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4666,11 +4870,11 @@
          y="593.63733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">24</tspan></text>
     <path
-       d="m 196.0781,67.407572 h -2.33997 v -7.868708 h 3.1503 v 7.058377 c 0,0.446264 -0.36406,0.810331 -0.81033,0.810331 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_25"
-       clip-path="url(#clipPath295)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1916.0521,520.50855 h 31.9642 v 69.69782 a 7.8242634,7.8242634 135 0 1 -7.8243,7.82426 h -24.1399 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path473"
+       inkscape:path-effect="#path-effect474"
+       inkscape:original-d="m 1916.0521,520.50855 h 31.9642 v 77.52208 h -31.9642 z" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4683,12 +4887,6 @@
          x="1897.7435"
          y="593.54431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">25</tspan></text>
-    <path
-       d="m 189.05677,56.388558 h 7.86729 v 3.150306 h -7.86729 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_26"
-       clip-path="url(#clipPath267)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.52047px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:1.88994;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00489829"
@@ -4702,12 +4900,9 @@
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
            id="tspan11">26</tspan></tspan></text>
     <path
-       d="m 181.14008,56.388558 h 7.91669 v 3.150306 h -7.91669 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_20"
-       clip-path="url(#clipPath287)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="ccccc" />
+       d="m 1868.532,489.40762 v 31.10093 h -80.3527 v -31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path476" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4720,13 +4915,6 @@
          x="1774.162"
          y="517.17639"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">20</tspan></text>
-    <path
-       d="m 189.05677,51.532572 v 4.855986 h -7.91669 v -0.310091 c 1.12854,-0.670984 1.93358,-1.828447 2.1276,-3.181703 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_19"
-       clip-path="url(#clipPath239)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4740,12 +4928,9 @@
          y="482.79849"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">19</tspan></text>
     <path
-       d="m 189.05677,44.336259 v 7.196313 l -5.78909,1.364192 c 0.0317,-0.20955 0.0469,-0.422981 0.0469,-0.640997 0,-0.815622 -0.21766,-1.580445 -0.60219,-2.236259 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_18"
-       clip-path="url(#clipPath243)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="cccscc" />
+       d="m 1868.5319,489.40762 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path479" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4759,12 +4944,25 @@
          y="445.57364"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">18</tspan></text>
     <path
-       d="m 189.05677,40.647261 v 3.688998 l -6.34435,5.683249 c -0.52352,-0.901347 -1.35466,-1.601258 -2.3495,-1.956858 l 2.58939,-7.43338 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_17"
-       clip-path="url(#clipPath291)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="cccccc" />
+       d="m 1868.5319,458.30669 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path480" />
+    <path
+       d="m 1868.5319,427.20576 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path481" />
+    <path
+       d="M 1868.5319,396.10483 V 365.0039 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path482" />
+    <path
+       d="m 1868.5319,365.0039 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path483" />
+    <path
+       d="m 1868.5319,333.90297 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path484" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4777,12 +4975,6 @@
          x="1773.3367"
          y="412.64923"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">17</tspan></text>
-    <path
-       d="m 168.55297,56.388558 h 7.86871 v 3.150306 h -7.86871 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_12"
-       clip-path="url(#clipPath271)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4796,11 +4988,10 @@
          y="517.26935"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">12</tspan></text>
     <path
-       d="m 176.42168,55.971222 v 0.417336 h -7.87012 v -4.951236 l 5.89809,1.349023 c 0.15734,1.332794 0.90417,2.483202 1.97203,3.184877 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_13"
-       clip-path="url(#clipPath259)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1660.4446,370.2832 66.4739,54.81274 c -4.5862,7.928 -7.1355,17.26339 -6.6455,28.69872 l -59.8643,-13.32814 z"
+       id="path511"
+       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4813,12 +5004,6 @@
          x="1674.6719"
          y="483.36679"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">13</tspan></text>
-    <path
-       d="m 174.41649,52.255767 c 0,0.179211 0.0113,0.3556 0.0332,0.530578 l -5.89809,-1.349023 0.007,-7.238647 6.54579,5.682897 c -0.43709,0.686153 -0.68792,1.502128 -0.68792,2.374195 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_14"
-       clip-path="url(#clipPath275)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4832,11 +5017,15 @@
          y="444.12506"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">14</tspan></text>
     <path
-       d="m 177.42921,48.041836 c -0.97014,0.330906 -1.78893,0.98672 -2.3248,1.839736 l -6.54579,-5.682897 6.36799,-3.589866 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_15"
-       clip-path="url(#clipPath279)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1727.1034,333.77342 23.4115,73.1462 c -12.2118,3.83956 -18.2729,10.84874 -23.5964,18.17632 l -66.4739,-54.81274 z"
+       id="path510"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1750.5149,406.91962 -23.4115,-73.1462 79.4696,-0.0889 -26.1022,72.87633 c -12.47,-4.52879 -21.4084,-2.45067 -29.9559,0.35877 z"
+       id="path509"
+       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4849,12 +5038,6 @@
          x="1693.1713"
          y="412.55627"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">15</tspan></text>
-    <path
-       d="m 182.9523,40.62927 -2.58939,7.43338 c -0.46708,-0.166864 -0.97155,-0.25788 -1.49507,-0.25788 -0.50306,0 -0.98672,0.0829 -1.43616,0.237066 h -0.002 l -2.50401,-7.433027 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_16"
-       clip-path="url(#clipPath299)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4867,13 +5050,6 @@
          x="1732.9713"
          y="402.72052"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">16</tspan></text>
-    <path
-       d="m 189.05677,53.240017 h 7.86729 v 3.148894 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_27"
-       clip-path="url(#clipPath283)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4886,13 +5062,6 @@
          x="1895.7861"
          y="485.733"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">27</tspan></text>
-    <path
-       d="m 189.05677,50.089711 h 7.86729 v 3.150306 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_28"
-       clip-path="url(#clipPath247)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4905,13 +5074,6 @@
          x="1895.7899"
          y="454.09656"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">28</tspan></text>
-    <path
-       d="m 189.05677,46.940817 h 7.86729 v 3.148894 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_29"
-       clip-path="url(#clipPath251)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4924,13 +5086,6 @@
          x="1895.801"
          y="422.55679"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">29</tspan></text>
-    <path
-       d="m 189.05677,43.790511 h 7.86729 v 3.150306 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_30"
-       clip-path="url(#clipPath255)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4943,12 +5098,6 @@
          x="1895.7268"
          y="391.02069"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">30</tspan></text>
-    <path
-       d="m 189.05677,40.64197 h 7.86729 v 3.148894 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_31"
-       clip-path="url(#clipPath311)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4961,12 +5110,6 @@
          x="1896.5891"
          y="359.48444"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">31</tspan></text>
-    <path
-       d="m 189.05677,37.491664 h 7.86729 v 3.150306 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_32"
-       clip-path="url(#clipPath307)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4980,11 +5123,10 @@
          y="327.94464"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">32</tspan></text>
     <path
-       d="m 189.05677,34.34277 h 7.86729 v 3.150305 h -7.86729 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_33"
-       clip-path="url(#clipPath303)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       d="m 1868.5319,302.80204 v -31.10093 h 79.4844 v 31.10093 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path485"
+       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -4998,12 +5140,10 @@
          y="296.41193"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">33</tspan></text>
     <path
-       d="m 196.92406,28.21749 v 6.12528 h -7.86729 v -1.685219 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="Manzana_J_Lote_34"
-       inkscape:label="Manzana J Lote 34"
-       clip-path="url(#clipPath315)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       id="rect485"
+       style="fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;paint-order:fill markers stroke"
+       d="m 1868.5319,256.31141 79.4844,-43.53451 0,58.92421 h -79.4844 z"
+       sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -5017,18 +5157,11 @@
          y="258.58047"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">34</tspan></text>
     <path
-       d="M 105.96949,72.825886 V 79.5396 l 21.41043,-12.037131 c 0.12136,-0.06738 0.2593,-0.103364 0.39688,-0.103364 h 13.21153 c 0.44767,0 0.81033,-0.362302 0.81033,-0.81033 v -6.233936 c 0,-0.448028 0.3623,-0.810234 0.80998,-0.810331 l 25.94468,-0.0056 0.005,-14.867819 c 1e-4,-0.2921 0.15698,-0.561975 0.41204,-0.705556 l 5.76968,-3.251905 c 0.12136,-0.06914 0.25929,-0.106186 0.3997,-0.104775 l 13.91873,0.0358 0.002,-7.514347 c 0,-0.2921 0.15699,-0.562328 0.41205,-0.705556 l 7.45101,-4.207227 v -5.881511 c 0,-0.621595 -0.66816,-1.011414 -1.20861,-0.705556 L 106.38153,72.12033 c -0.25364,0.143228 -0.41204,0.413456 -0.41204,0.705556 z"
-       style="fill:#37b44a;fill-opacity:1;stroke:#ffffff;stroke-width:0.352517;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3561"
-       clip-path="url(#clipPath399)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
-       sodipodi:nodetypes="sccssssscsccccsccsccs" />
-    <path
-       d="m 15.166255,282.79886 c -0.45332,0 -0.817033,-0.37324 -0.806097,-0.8255 0.817386,-34.56093 3.742972,-158.23459 3.784247,-159.9886 l 0.02187,-0.94968 c 0.0071,-0.28504 0.164042,-0.54574 0.412045,-0.68474 L 200.07437,18.072306 v -5.221463 c 0,-0.620184 -0.64347,-1.192036 -1.18392,-0.887236 L 18.342666,113.72729 l -6.001103,3.38455 c -0.249414,0.14076 -0.405341,0.3997 -0.412044,0.68369 -0.04974,2.02424 -0.103364,4.15889 -0.155928,6.39127 -1.096786,45.22435 -3.0617581,133.35952 -3.6226748,158.61206 -0.057856,2.66665 -0.1019528,4.63162 -0.1284111,5.77145 -0.010936,0.4519 0.3517194,0.82267 0.80645,0.82267 h 5.3534029 l 185.080272,-0.001 c 0.44803,0 0.81174,-0.36265 0.81174,-0.80892 v -5.7852 z"
-       style="fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3565"
-       clip-path="url(#clipPath390)"
-       transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
+       id="rect444"
+       style="fill:#d40000;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;paint-order:fill markers stroke"
+       d="m 831.48524,2335.335 h 375.08206 a 9.8054578,9.8054578 45 0 1 9.8055,9.8055 v 338.3247 a 10.227296,10.227296 135 0 1 -10.2273,10.2273 H 831.48524 Z"
+       inkscape:path-effect="#path-effect444"
+       inkscape:original-d="m 831.48524,2335.335 h 384.88756 v 358.3575 H 831.48524 Z" />
     <path
        id="rect443"
        style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
@@ -11502,6 +11635,12 @@
          x="1301.437"
          y="812.28265"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">19</tspan></text>
+    <path
+       d="m 1388.8287,520.61835 h 32.3803 v 77.52208 h -24.4005 a 7.9797975,7.9797975 45 0 1 -7.9798,-7.9798 z"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path465"
+       inkscape:path-effect="#path-effect476"
+       inkscape:original-d="m 1388.8287,520.61835 h 32.3803 v 77.52208 h -32.3803 z" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:15.2258px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0490509"
@@ -11762,5 +11901,22 @@
              y="85.538834">Re-venta</tspan></text>
       </g>
     </g>
+    <path
+       style="fill:#37b44a;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1948.0163,148.37957 0,64.39733 -79.4844,43.53452 v 77.462 h -141.4285 l -66.6588,36.50978 -0.018,150.33516 -271.5978,-4e-5 v 69.5649 a 7.9834011,7.9834011 135 0 1 -7.9834,7.9834 h -120.2046 a 63.538918,63.538918 165.64499 0 0 -30.5227,7.81134 l -204.9035,112.22799 v -59.34288 a 19.88226,19.88226 120.5913 0 1 10.2986,-17.42005 l 904.6614,-497.69944 a 5.2912512,5.2912512 30.591304 0 1 7.8417,4.63599 z"
+       id="path504"
+       inkscape:path-effect="#path-effect504"
+       inkscape:original-d="m 1948.0163,139.42945 v 73.34745 l -79.4844,43.53452 v 77.462 h -141.4285 l -66.6588,36.50978 -0.018,150.33516 -271.5978,-4e-5 v 77.5483 h -144.4489 l -219.1653,120.03933 v -71.09714 z"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1806.573,333.68456 h 61.9589 l 10e-5,36.6245 -64.3937,56.14966 c -4.7892,-8.94516 -12.3785,-16.12161 -23.6675,-19.89787 z"
+       id="path508"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:square;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1660.4087,440.46652 0.018,48.91748 h 79.8622 l -2e-4,-3.31553 c -10.696,-6.84648 -17.6913,-17.85 -20.0155,-32.27381 z"
+       id="path514"
+       sodipodi:nodetypes="cccccc" />
   </g>
 </svg>
