@@ -1553,8 +1553,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.21009177"
-     inkscape:cx="347.46721"
-     inkscape:cy="1206.6156"
+     inkscape:cx="804.41039"
+     inkscape:cy="1639.7596"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1602,7 +1602,7 @@
        transform="matrix(3.5806164,0,0,3.4853924,-127.74399,-122.11066)" />
     <path
        d="m 375.387,805.59 c 0,1.269 -1.028,2.297 -2.297,2.297 H 267.895 V 705.07 H 373.09 c 1.269,0 2.297,1.028 2.297,2.297 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.917613;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99926264;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="path887"
        clip-path="url(#clipPath7)"
        transform="matrix(3.5806164,0,0,3.4853924,-127.74399,-122.11066)" />
@@ -1734,14 +1734,14 @@
        id="path1153" />
     <path
        d="m 197.793,-607.656 h 10.426 v -22.289 h -10.426 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.917613;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99926264;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_P_Lote_19"
        inkscape:path-effect="#path-effect3"
        inkscape:original-d="m 197.793,-607.656 h 10.426 v -22.289 h -10.426 z"
        transform="matrix(3.5806164,0,0,-3.4853924,-127.74399,-122.11066)" />
     <path
        d="m 617.80838,1918.1091 h 33.4716 v 77.6998 h -33.4716 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#fefefe;stroke-width:1.765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#fefefe;stroke-width:3.53007872;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_P_Lote_21" />
     <path
        d="m 617.80838,1995.8089 h 33.4716 v 77.6858 h -33.4716 z"
@@ -3505,7 +3505,7 @@
        id="path2507" />
     <path
        d="m 1146.5312,963.65358 h 66.3057 v 46.06972 c 0,4.473 -3.6763,8.0966 -8.2081,8.0966 h -58.0976 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.25948;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53007872;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_K_Lote_1" />
     <path
        d="m 1146.5222,916.64429 h 66.3237 v 46.99704 h -66.3237 z"
@@ -3525,7 +3525,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">31</tspan></text>
     <path
        d="m 1146.5133,862.44823 h 58.1291 c 4.5343,0 8.2125,3.5399 8.2125,7.91735 v 46.28739 h -66.3416 z"
-       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.22408;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53007872;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_K_Lote_30" />
     <path
        d="m 699.57534,940.29267 h 31.74932 v 77.53613 h -31.74932 z"
@@ -4410,14 +4410,14 @@
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <path
        d="m 144.98459,67.407572 h -2.38125 c -0.44802,0 -0.81033,-0.364067 -0.81033,-0.810331 v -7.058377 h 3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.327315;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3345"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_1"
        clip-path="url(#clipPath175)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <path
        d="m 144.98459,59.538864 h 3.19158 v 7.868708 h -3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.327315;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3349"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_2"
        clip-path="url(#clipPath195)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4433,8 +4433,8 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.52047px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.00489829">2</tspan></text>
     <path
        d="m 148.17617,59.538864 h 3.19158 v 7.868708 h -3.19158 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.327315;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3353"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_3"
        clip-path="url(#clipPath187)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4451,8 +4451,8 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">3</tspan></text>
     <path
        d="m 151.36775,59.538864 h 3.08117 v 7.868708 h -3.08117 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.321462;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3357"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_4"
        clip-path="url(#clipPath183)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4469,8 +4469,8 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">4</tspan></text>
     <path
        d="m 154.44892,59.538864 h 3.08116 v 7.868708 h -3.08116 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.321462;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3361"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.35251765;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="Manzana_J_Lote_5"
        clip-path="url(#clipPath179)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4488,7 +4488,7 @@
     <path
        d="m 157.53008,59.538864 h 3.14889 v 7.868708 h -3.14889 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3365"
+       id="Manzana_J_Lote_6"
        clip-path="url(#clipPath199)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4506,7 +4506,7 @@
     <path
        d="m 160.67897,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3369"
+       id="Manzana_J_Lote_7"
        clip-path="url(#clipPath203)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4524,7 +4524,7 @@
     <path
        d="m 163.82787,59.538864 h 3.1503 v 7.868708 h -3.1503 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3373"
+       id="Manzana_J_Lote_8"
        clip-path="url(#clipPath207)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4542,7 +4542,7 @@
     <path
        d="m 166.97817,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3377"
+       id="Manzana_J_Lote_9"
        clip-path="url(#clipPath211)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4560,7 +4560,7 @@
     <path
        d="m 170.12812,59.538864 h 3.1489 v 7.868708 h -3.1489 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3381"
+       id="Manzana_J_Lote_10"
        clip-path="url(#clipPath215)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4578,7 +4578,7 @@
     <path
        d="m 175.61699,67.407572 h -2.33997 v -7.868708 h 3.1503 v 7.058377 c 0,0.446264 -0.36406,0.810331 -0.81033,0.810331 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3387"
+       id="Manzana_J_Lote_11"
        clip-path="url(#clipPath223)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4596,7 +4596,7 @@
     <path
        d="m 184.29039,67.407572 h -2.33998 c -0.44803,0 -0.81033,-0.364067 -0.81033,-0.810331 v -7.058377 h 3.15031 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3393"
+       id="Manzana_J_Lote_21"
        clip-path="url(#clipPath227)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4614,7 +4614,7 @@
     <path
        d="m 184.28898,59.538864 h 3.1503 v 7.868708 h -3.1503 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3397"
+       id="Manzana_J_Lote_22"
        clip-path="url(#clipPath231)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4632,7 +4632,7 @@
     <path
        d="m 187.43928,59.538864 h 3.15031 v 7.868708 h -3.15031 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3401"
+       id="Manzana_J_Lote_23"
        clip-path="url(#clipPath235)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4650,7 +4650,7 @@
     <path
        d="m 190.58923,59.538864 h 3.1489 v 7.868708 h -3.1489 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3405"
+       id="Manzana_J_Lote_24"
        clip-path="url(#clipPath263)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4668,7 +4668,7 @@
     <path
        d="m 196.0781,67.407572 h -2.33997 v -7.868708 h 3.1503 v 7.058377 c 0,0.446264 -0.36406,0.810331 -0.81033,0.810331 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3411"
+       id="Manzana_J_Lote_25"
        clip-path="url(#clipPath295)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4704,7 +4704,7 @@
     <path
        d="m 181.14008,56.388558 h 7.91669 v 3.150306 h -7.91669 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3419"
+       id="Manzana_J_Lote_20"
        clip-path="url(#clipPath287)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="ccccc" />
@@ -4723,7 +4723,7 @@
     <path
        d="m 189.05677,51.532572 v 4.855986 h -7.91669 v -0.310091 c 1.12854,-0.670984 1.93358,-1.828447 2.1276,-3.181703 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3425"
+       id="Manzana_J_Lote_19"
        clip-path="url(#clipPath239)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="cccccc" />
@@ -4742,7 +4742,7 @@
     <path
        d="m 189.05677,44.336259 v 7.196313 l -5.78909,1.364192 c 0.0317,-0.20955 0.0469,-0.422981 0.0469,-0.640997 0,-0.815622 -0.21766,-1.580445 -0.60219,-2.236259 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3431"
+       id="Manzana_J_Lote_18"
        clip-path="url(#clipPath243)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="cccscc" />
@@ -4761,7 +4761,7 @@
     <path
        d="m 189.05677,40.647261 v 3.688998 l -6.34435,5.683249 c -0.52352,-0.901347 -1.35466,-1.601258 -2.3495,-1.956858 l 2.58939,-7.43338 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3437"
+       id="Manzana_J_Lote_17"
        clip-path="url(#clipPath291)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="cccccc" />
@@ -4780,7 +4780,7 @@
     <path
        d="m 168.55297,56.388558 h 7.86871 v 3.150306 h -7.86871 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3441"
+       id="Manzana_J_Lote_12"
        clip-path="url(#clipPath271)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4798,7 +4798,7 @@
     <path
        d="m 176.42168,55.971222 v 0.417336 h -7.87012 v -4.951236 l 5.89809,1.349023 c 0.15734,1.332794 0.90417,2.483202 1.97203,3.184877 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3447"
+       id="Manzana_J_Lote_13"
        clip-path="url(#clipPath259)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4816,7 +4816,7 @@
     <path
        d="m 174.41649,52.255767 c 0,0.179211 0.0113,0.3556 0.0332,0.530578 l -5.89809,-1.349023 0.007,-7.238647 6.54579,5.682897 c -0.43709,0.686153 -0.68792,1.502128 -0.68792,2.374195 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3453"
+       id="Manzana_J_Lote_14"
        clip-path="url(#clipPath275)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4834,7 +4834,7 @@
     <path
        d="m 177.42921,48.041836 c -0.97014,0.330906 -1.78893,0.98672 -2.3248,1.839736 l -6.54579,-5.682897 6.36799,-3.589866 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3459"
+       id="Manzana_J_Lote_15"
        clip-path="url(#clipPath279)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4870,7 +4870,7 @@
     <path
        d="m 189.05677,53.240017 h 7.86729 v 3.148894 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3469"
+       id="Manzana_J_Lote_27"
        clip-path="url(#clipPath283)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="ccccc" />
@@ -4889,7 +4889,7 @@
     <path
        d="m 189.05677,50.089711 h 7.86729 v 3.150306 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3473"
+       id="Manzana_J_Lote_28"
        clip-path="url(#clipPath247)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="ccccc" />
@@ -4908,7 +4908,7 @@
     <path
        d="m 189.05677,46.940817 h 7.86729 v 3.148894 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3477"
+       id="Manzana_J_Lote_29"
        clip-path="url(#clipPath251)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="ccccc" />
@@ -4927,7 +4927,7 @@
     <path
        d="m 189.05677,43.790511 h 7.86729 v 3.150306 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3481"
+       id="Manzana_J_Lote_30"
        clip-path="url(#clipPath255)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)"
        sodipodi:nodetypes="ccccc" />
@@ -4946,7 +4946,7 @@
     <path
        d="m 189.05677,40.64197 h 7.86729 v 3.148894 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3485"
+       id="Manzana_J_Lote_31"
        clip-path="url(#clipPath311)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4964,7 +4964,7 @@
     <path
        d="m 189.05677,37.491664 h 7.86729 v 3.150306 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3489"
+       id="Manzana_J_Lote_32"
        clip-path="url(#clipPath307)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -4982,7 +4982,7 @@
     <path
        d="m 189.05677,34.34277 h 7.86729 v 3.150305 h -7.86729 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.352518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path3493"
+       id="Manzana_J_Lote_33"
        clip-path="url(#clipPath303)"
        transform="matrix(10.149779,0,0,9.8798524,-50.352412,-67.726636)" />
     <text
@@ -6850,7 +6850,7 @@
          y="2028.0978"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">39</tspan></text>
     <rect
-       style="fill:#d40000;stroke:#fefefe;stroke-width:1.75853;stroke-dasharray:none"
+       style="fill:#d40000;stroke:#fefefe;stroke-width:3.53007872;stroke-dasharray:none"
        id="Manzana_P_Lote_20"
        width="37.051956"
        height="77.712685"
@@ -11516,14 +11516,14 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.2258px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.0490509">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:43.8652px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#fefefe;stroke-width:0.653;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-style:normal;font-weight:normal;font-size:43.8652px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:#fefefe;stroke-width:6.04724405;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="970.53436"
        y="1715.9626"
        id="text109"
        transform="scale(1.0135684,0.98661323)"><tspan
          sodipodi:role="line"
          id="tspan109"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.8652px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke:#fefefe;stroke-width:0.653;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.8652px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke:#fefefe;stroke-width:6.04724405;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          x="970.53436"
          y="1715.9626">PLAZA</tspan></text>
     <g
@@ -11666,7 +11666,7 @@
            style="stroke-width:0.0998611">
           <path
              d="m 338.141,-282.484 h 8.871 v -22.336 h -8.871 z"
-             style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.917613;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99926266;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
              id="path2555-9" />
         </g>
         <text
