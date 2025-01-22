@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="731.14841"
-     inkscape:cy="589.01995"
+     inkscape:zoom="0.5"
+     inkscape:cx="529"
+     inkscape:cy="517"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -6480,15 +6480,15 @@
      x="302.01984"
      y="233.84926" />
   <rect
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
-     id="rect53885"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="Manzana_B_Lote_6"
      width="21.132561"
      height="52.88533"
      x="323.1524"
      y="233.84926" />
   <rect
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
-     id="rect53886"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="Manzana_B_Lote_7"
      width="21.132561"
      height="52.88533"
      x="344.28497"
@@ -7029,8 +7029,8 @@
      x="492.1987"
      y="427.58374" />
   <rect
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
-     id="rect53960"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     id="Manzana_C_Lote_32"
      width="21.132561"
      height="52.88533"
      x="513.33124"
@@ -11832,7 +11832,7 @@
        xml:space="preserve"><tspan
          x="604.67389"
          y="1218.301"
-         id="tspan63">⬅️ IBARLUCEA </tspan></text>
+         id="tspan3">⬅️ IBARLUCEA </tspan></text>
     <text
        style="font-variant:normal;font-weight:bold;font-size:27.7292px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;white-space:pre;inline-size:338.579;display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.83387;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="text2358"
@@ -11842,7 +11842,7 @@
        xml:space="preserve"><tspan
          x="604.67389"
          y="1218.301"
-         id="tspan64">ROSARIO ➡️</tspan></text>
+         id="tspan5">ROSARIO ➡️</tspan></text>
     <text
        style="font-variant:normal;font-weight:bold;font-size:27.7292px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;white-space:pre;inline-size:338.579;display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.83387;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="text2356"
@@ -11852,7 +11852,7 @@
        xml:space="preserve"><tspan
          x="604.67389"
          y="1218.301"
-         id="tspan65">RUTA PROVINCIAL 34s</tspan></text>
+         id="tspan44">RUTA PROVINCIAL 34s</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -11984,9 +11984,9 @@
        style="white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;stroke-width:0.626866"><tspan
          x="48.083984"
          y="202.65412"
-         id="tspan75"><tspan
+         id="tspan62"><tspan
            style="font-weight:800;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold'"
-           id="tspan66">LEYENDA</tspan></tspan></text>
+           id="tspan47">LEYENDA</tspan></tspan></text>
     <path
        d="m 32.867715,341.53792 h 11.828 v 29.78134 h -11.828 z"
        style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.22518;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
