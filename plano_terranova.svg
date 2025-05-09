@@ -1739,11 +1739,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1450904"
-     inkscape:cx="596.18004"
-     inkscape:cy="1195.8062"
+     inkscape:zoom="0.2901808"
+     inkscape:cx="1052.7919"
+     inkscape:cy="1462.8811"
      inkscape:document-units="mm"
-     inkscape:current-layer="g5"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -2040,7 +2040,7 @@
        id="Manzana_P_Lote_10" />
     <path
        d="m 906.14467,1918.1091 h 31.86034 v 77.6998 h -31.86034 z"
-       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_P_Lote_30" />
     <path
        d="m 906.14467,1995.8089 h 31.86034 v 77.6858 h -31.86034 z"
@@ -2048,7 +2048,7 @@
        id="Manzana_P_Lote_9" />
     <path
        d="m 938.00858,1918.1091 h 31.86031 v 77.6998 h -31.86031 z"
-       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_P_Lote_31" />
     <path
        d="m 938.00858,1995.8089 h 31.86031 v 77.6858 h -31.86031 z"
@@ -3384,7 +3384,7 @@
        id="path2139" />
     <path
        d="m 1813.7629,1280.3102 h 31.7637 v 77.5221 h -31.7637 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_G_Lote_36" />
     <path
        d="m 1845.5123,1357.8323 h 31.7493 v 77.8357 h -31.7493 z"
@@ -3960,11 +3960,11 @@
        id="path2739" />
     <path
        d="m 1684.9287,1156.0629 h 31.7494 v 77.8358 h -31.7494 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_G_Lote_8" />
     <path
        d="m 1684.9287,1078.5268 h 31.7494 v 77.5361 h -31.7494 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_G_Lote_32" />
     <path
        d="m 1750.2607,1156.0629 h 31.7494 v 77.8358 h -31.7494 z"
@@ -4212,8 +4212,8 @@
        id="path3007" />
     <path
        d="m 1430.9162,658.73921 h 31.7493 v 77.52208 h -31.7493 z"
-       style="fill:#0066ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="manzana_I_lote_24" />
+       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path3011" />
     <path
        d="m 1462.6655,736.26129 h 31.7494 v 77.84974 h -31.7494 z"
        style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -4573,7 +4573,7 @@
        id="Manzana_N_Lote_1" />
     <path
        d="m 744.92026,1498.4887 h 31.86032 v 77.5221 h -31.86032 z"
-       style="fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3.53008;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        id="Manzana_N_Lote_11" />
     <text
        xml:space="preserve"
