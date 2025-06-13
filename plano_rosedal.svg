@@ -6635,7 +6635,7 @@
      x="280.88727"
      y="286.73456" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_B_Lote_42"
      width="21.132561"
      height="52.88533"
@@ -7304,7 +7304,7 @@
      x="344.27606"
      y="581.72241" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_D_Lote_39"
      width="21.132561"
      height="66.037415"
@@ -7529,7 +7529,7 @@
      x="568.80652"
      y="682.96521" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_E_Lote_17"
      width="23.425896"
      height="59.916077"
@@ -7839,7 +7839,7 @@
      transform="translate(33.5,-36.115225)" />
   <path
      id="Manzana_J_Lote_3"
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
      d="m 749.55458,895.3637 66.90573,-0.84627 0.24914,21.11321 -66.90323,0.8386 z"
      sodipodi:nodetypes="ccccc" />
   <path
