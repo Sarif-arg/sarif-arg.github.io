@@ -6628,7 +6628,7 @@
      x="259.7547"
      y="286.73456" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_B_Lote_43"
      width="21.132561"
      height="52.88533"
@@ -6790,7 +6790,7 @@
      x="259.74054"
      y="374.69843" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_C_Lote_4"
      width="21.132561"
      height="52.88533"
@@ -7304,7 +7304,7 @@
      x="344.27606"
      y="581.72241" />
   <rect
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_D_Lote_39"
      width="21.132561"
      height="66.037415"
@@ -7466,7 +7466,7 @@
      x="357.97342"
      y="682.96521" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_E_Lote_8"
      width="23.425896"
      height="59.916077"
@@ -7589,7 +7589,7 @@
      sodipodi:nodetypes="ccccc" />
   <path
      id="Manzana_F_Lote_5"
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
      d="m 878.13752,143.6851 35.2472,0.41432 -0.31399,39.54253 -35.22376,-0.33229 z"
      sodipodi:nodetypes="ccccc" />
   <path
