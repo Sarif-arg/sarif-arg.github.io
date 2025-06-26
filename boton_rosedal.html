@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Descargar Imagen como PDF</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <button onclick="descargarPDF()">Descargar PDF</button>
+
+  <script>
+    async function descargarPDF() {
+      try {
+        const imageUrl = 'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png';
+
+        // Cargar la imagen
+        const img = new Image();
+        img.crossOrigin = 'Anonymous';
+        img.src = imageUrl;
+
+        img.onload = function () {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.width;
+          canvas.height = img.height;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
+
+          const imgData = canvas.toDataURL('image/png');
+          const { jsPDF } = window.jspdf;
+          const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [img.width, img.height] });
+          pdf.addImage(imgData, 'PNG', 0, 0, img.width, img.height);
+          pdf.save('imagen.pdf');
+        };
+
+        img.onerror = function () {
+          throw new Error('No se pudo cargar la imagen');
+        };
+
+      } catch (error) {
+        console.error('Error al generar el PDF:', error);
+        alert('Ocurrió un error al generar el PDF. Revisa la consola para más detalles.');
+      }
+    }
+  </script>
+</body>
+</html>
