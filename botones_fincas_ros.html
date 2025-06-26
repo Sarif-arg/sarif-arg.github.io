@@ -53,7 +53,7 @@
   <script>
     async function descargarPDF() {
       try {
-        const svgUrl = 'https://sarif-arg.github.io/plano_rosedal.svg';
+        const svgUrl = 'https://sarif-arg.github.io/plano_fincas_ros.svg';
         const response = await fetch(svgUrl);
         const svgText = await response.text();
 
@@ -69,7 +69,7 @@
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [canvas.width, canvas.height] });
         pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
-        pdf.save('plano_rosedal.pdf');
+        pdf.save('plano_fincas_ros.pdf');
       } catch (error) {
         console.error('Error al generar el PDF:', error);
         alert('Ocurrió un error al generar el PDF. Revisa la consola.');
@@ -78,8 +78,8 @@
 
     function descargarMensura() {
       const enlace = document.createElement('a');
-      enlace.href = 'https://sarif-arg.github.io/plano_rosedal_mensura.pdf';
-      enlace.download = 'plano_terranova_mensura.pdf';
+      enlace.href = 'https://sarif-arg.github.io/plano_fincas_ros_mensura.pdf';
+      enlace.download = 'plano_fincas_ros_mensura.pdf';
       document.body.appendChild(enlace);
       enlace.click();
       document.body.removeChild(enlace);
