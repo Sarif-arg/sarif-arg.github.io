@@ -5,9 +5,32 @@
   <title>Descargar SVG como PDF</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    button {
+      background-color: #1e1e1e;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+  </style>
 </head>
 <body>
-  <button onclick="descargarPDF()">Descargar PDF del Rosedal</button>
+  <button onclick="descargarPDF()">Descargar Plano Comercial</button>
 
   <script>
     async function descargarPDF() {
