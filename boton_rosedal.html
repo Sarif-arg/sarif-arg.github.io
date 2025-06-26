@@ -13,6 +13,13 @@
       padding-top: 50px;
     }
 
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
     button {
       background-color: #1e1e1e;
       color: white;
@@ -22,15 +29,26 @@
       border-radius: 6px;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      margin: 10px 0;
     }
 
     button:hover {
       background-color: #333;
     }
+
+    @media (max-width: 600px) {
+      .button-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
 </head>
 <body>
-  <button onclick="descargarPDF()">Descargar Plano Comercial</button>
+  <div class="button-container">
+    <button onclick="descargarPDF()">Descargar Plano Comercial</button>
+    <button onclick="descargarMensura()">Descargar Plano con Mensura</button>
+  </div>
 
   <script>
     async function descargarPDF() {
@@ -56,6 +74,15 @@
         console.error('Error al generar el PDF:', error);
         alert('Ocurrió un error al generar el PDF. Revisa la consola.');
       }
+    }
+
+    function descargarMensura() {
+      const enlace = document.createElement('a');
+      enlace.href = 'https://sarif-arg.github.io/plano_rosedal_mensura.pdf';
+      enlace.download = 'plano_terranova_mensura.pdf';
+      document.body.appendChild(enlace);
+      enlace.click();
+      document.body.removeChild(enlace);
     }
   </script>
 </body>
