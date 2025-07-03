@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Descargar SVG como PDF</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      background-color: #1e1e1e;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 10px 0;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    @media (max-width: 600px) {
+      .button-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button onclick="descargarPDF()">Descargar Plano Comercial</button>
+    <button onclick="descargarMensura()">Descargar Plano con Mensura</button>
+  </div>
+
+  <script>
+    async function descargarPDF() {
+      try {
+        const svgUrl = 'https://sarif-arg.github.io/plano_portofino.svg';
+        const response = await fetch(svgUrl);
+        const svgText = await response.text();
+
+        const canvas = document.createElement('canvas');
+        canvas.width = 2000;
+        canvas.height = 2828;
+        const context = canvas.getContext('2d');
+
+        const v = await window.canvg.Canvg.from(context, svgText);
+        await v.render();
+
+        const imgData = canvas.toDataURL('image/png');
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [canvas.width, canvas.height] });
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('plano_terranova.pdf');
+      } catch (error) {
+        console.error('Error al generar el PDF:', error);
+        alert('Ocurrió un error al generar el PDF. Revisa la consola.');
+      }
+    }
+
+    function descargarMensura() {
+      const enlace = document.createElement('a');
+      enlace.href = 'https://sarif-arg.github.io/plano_portofino_mensura.pdf';
+      enlace.download = 'plano_terranova_mensura.pdf';
+      document.body.appendChild(enlace);
+      enlace.click();
+      document.body.removeChild(enlace);
+    }
+  </script>
+</body>
+</html>
