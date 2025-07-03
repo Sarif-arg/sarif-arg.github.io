@@ -69,7 +69,7 @@
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [canvas.width, canvas.height] });
         pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
-        pdf.save('plano_terranova.pdf');
+        pdf.save('plano_portofino.pdf');
       } catch (error) {
         console.error('Error al generar el PDF:', error);
         alert('Ocurrió un error al generar el PDF. Revisa la consola.');
@@ -79,7 +79,7 @@
     function descargarMensura() {
       const enlace = document.createElement('a');
       enlace.href = 'https://sarif-arg.github.io/plano_portofino_mensura.pdf';
-      enlace.download = 'plano_terranova_mensura.pdf';
+      enlace.download = 'plano_portofino_mensura.pdf';
       document.body.appendChild(enlace);
       enlace.click();
       document.body.removeChild(enlace);
