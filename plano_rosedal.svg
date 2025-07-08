@@ -6473,14 +6473,14 @@
      x="280.88727"
      y="233.84926" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_B_Lote_5"
      width="21.132561"
      height="52.88533"
      x="302.01984"
      y="233.84926" />
   <rect
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_B_Lote_6"
      width="21.132561"
      height="52.88533"
@@ -7459,7 +7459,7 @@
      x="334.54752"
      y="682.96521" />
   <rect
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.19999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      id="Manzana_E_Lote_7"
      width="23.425896"
      height="59.916077"
@@ -7584,7 +7584,7 @@
      sodipodi:nodetypes="ccccc" />
   <path
      id="Manzana_F_Lote_4"
-     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
      d="m 843.05829,143.27859 35.2472,0.41432 -0.45852,39.61675 -35.25697,-0.49754 z"
      sodipodi:nodetypes="ccccc" />
   <path
