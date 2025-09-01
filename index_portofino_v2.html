@@ -54,26 +54,32 @@
 
         overlay.on('add', () => {
           const root = overlay.getElement(); // <svg> montado
+          console.log("SVG montado:", root);
           // Seleccionamos posibles figuras de lotes (ajustá el selector si usás otra etiqueta/clase)
           const terrenos = root.querySelectorAll('polygon, path, rect');
+          console.log("Cantidad de terrenos detectados:", terrenos.length);
 
-          terrenos.forEach(el => {
+          terrenos.forEach((el, i) => {
+            console.log(`Terreno #${i} -> id:`, el.getAttribute('id'));
             el.style.cursor = 'pointer';
 
             // Hover: leve resaltado del borde
             el.addEventListener('mouseenter', () => {
+              console.log("Hover en:", el.getAttribute('id'));
               el.dataset._oldStroke = el.getAttribute('stroke') || '';
               el.dataset._oldStrokeWidth = el.getAttribute('stroke-width') || '';
               el.setAttribute('stroke', '#111');
               el.setAttribute('stroke-width', '2');
             });
             el.addEventListener('mouseleave', () => {
+              console.log("Salir de hover en:", el.getAttribute('id'));
               if (el.dataset._oldStroke !== undefined) el.setAttribute('stroke', el.dataset._oldStroke);
               if (el.dataset._oldStrokeWidth !== undefined) el.setAttribute('stroke-width', el.dataset._oldStrokeWidth);
             });
 
             // Click: abrimos popup con info básica
             el.addEventListener('click', (ev) => {
+              console.log("Click en:", el.getAttribute('id'));
               const id = el.getAttribute('id') || '—';
               const medidas = el.getAttribute('data-medidas') || '—';
 
