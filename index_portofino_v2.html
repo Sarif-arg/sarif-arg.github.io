@@ -1,55 +1,64 @@
-<div id="map" style="height: 600px;"></div>
-
-<script>
-  // Crear mapa base
-  const map = L.map('map').setView([-32.9, -60.7], 15); // centro de ejemplo
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 20
-  }).addTo(map);
-
-  // Cargar el SVG como overlay
-  fetch("plano_portofino.svg")
-    .then(res => res.text())
-    .then(svgText => {
-      const parser = new DOMParser();
-      const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
-      const svgElement = svgDoc.documentElement;
-
-      // Insertamos el SVG dentro del mapa
-      const overlay = L.svgOverlay(svgElement, map.getBounds());
-      overlay.addTo(map);
-
-      // Esperamos a que el overlay esté listo
-      overlay.on('add', () => {
-        // Seleccionamos todos los polígonos o paths del SVG
-        const terrenos = svgElement.querySelectorAll("polygon, path");
-
-        terrenos.forEach(terreno => {
-          terreno.style.cursor = "pointer"; // para dar feedback visual
-
-          // Escuchamos el clic
-          terreno.addEventListener("click", (e) => {
-            // Ejemplo: datos básicos que cargaremos manualmente
-            const medidas = terreno.getAttribute("data-medidas") || "Medidas no definidas";
-            const disponibilidad = terreno.getAttribute("fill") || "Desconocido";
-
-            // Acá luego podemos cruzar con datos.json usando un ID
-            const precio = "Consultar archivo JSON";
-
-            // Popup de Leaflet en el lugar clickeado
-            const point = map.mouseEventToLatLng(e);
-            L.popup()
-              .setLatLng(point)
-              .setContent(`
-                <b>Terreno</b><br>
-                Medidas: ${medidas}<br>
-                Disponibilidad: ${disponibilidad}<br>
-                Precio: ${precio}
-              `)
-              .openOn(map);
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Portofino</title>
+  </head>
+  <body>
+    <div id="map" style="height: 600px;"></div>
+  
+    <script>
+      // Crear mapa base
+      const map = L.map('map').setView([-32.9, -60.7], 15); // centro de ejemplo
+    
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 20
+      }).addTo(map);
+    
+      // Cargar el SVG como overlay
+      fetch("plano_portofino.svg")
+        .then(res => res.text())
+        .then(svgText => {
+          const parser = new DOMParser();
+          const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
+          const svgElement = svgDoc.documentElement;
+    
+          // Insertamos el SVG dentro del mapa
+          const overlay = L.svgOverlay(svgElement, map.getBounds());
+          overlay.addTo(map);
+    
+          // Esperamos a que el overlay esté listo
+          overlay.on('add', () => {
+            // Seleccionamos todos los polígonos o paths del SVG
+            const terrenos = svgElement.querySelectorAll("polygon, path");
+    
+            terrenos.forEach(terreno => {
+              terreno.style.cursor = "pointer"; // para dar feedback visual
+    
+              // Escuchamos el clic
+              terreno.addEventListener("click", (e) => {
+                // Ejemplo: datos básicos que cargaremos manualmente
+                const medidas = terreno.getAttribute("data-medidas") || "Medidas no definidas";
+                const disponibilidad = terreno.getAttribute("fill") || "Desconocido";
+    
+                // Acá luego podemos cruzar con datos.json usando un ID
+                const precio = "Consultar archivo JSON";
+    
+                // Popup de Leaflet en el lugar clickeado
+                const point = map.mouseEventToLatLng(e);
+                L.popup()
+                  .setLatLng(point)
+                  .setContent(`
+                    <b>Terreno</b><br>
+                    Medidas: ${medidas}<br>
+                    Disponibilidad: ${disponibilidad}<br>
+                    Precio: ${precio}
+                  `)
+                  .openOn(map);
+              });
+            });
           });
         });
-      });
-    });
-</script>
+    </script>
+  </body>
