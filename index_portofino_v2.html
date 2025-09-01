@@ -123,9 +123,9 @@
 
     function estadoDesdeFill(fill) {
       const f = (fill || '').toLowerCase().replace(/\s/g, '');
-      if (f.includes('green') || f.includes('#00ff00') || f.includes('0,255,0')) return 'Disponible';
+      if (f.includes('green') || f.includes('#55d400') || f.includes('0,255,0')) return 'Disponible';
       if (f.includes('yellow') || f.includes('#ffff00') || f.includes('255,255,0')) return 'Reservado';
-      if (f.includes('red') || f.includes('#ff0000') || f.includes('255,0,0')) return 'Vendido';
+      if (f.includes('red') || f.includes('#d40000') || f.includes('255,0,0')) return 'Vendido';
       // Si usás otras paletas (pasteles custom), ajustamos acá los hex exactos:
       if (f.includes('#c6f6d5')) return 'Disponible'; // ej. verde pastel
       if (f.includes('#fef3c7')) return 'Reservado';  // ej. amarillo pastel
