@@ -75,27 +75,6 @@
         }, 500); // medio segundo de delay
       });
 
-              L.popup({ autoPan: true })
-                .setLatLng(latlng)
-                .setContent(`
-                  <div style="min-width:240px; font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;">
-                    <div style="font-weight:700; margin-bottom:6px;">Terreno ${escapeHTML(id)}</div>
-                    <div><strong>Medidas:</strong> ${escapeHTML(medidas)}</div>
-                    <div><strong>Estado:</strong> ${estado}
-                      <span style="display:inline-block;width:10px;height:10px;background:${fillColor};border:1px solid #666;margin-left:6px;vertical-align:middle;"></span>
-                    </div>
-                    <!-- Próximo paso: traer precio desde datos.json usando el ID -->
-                  </div>
-                `)
-                .openOn(map);
-            });
-          });
-        });
-      })
-      .catch(err => {
-        console.error('Error cargando SVG:', err);
-      });
-
     // Helpers
     function getFillColor(el) {
       // 1) atributo fill directo
