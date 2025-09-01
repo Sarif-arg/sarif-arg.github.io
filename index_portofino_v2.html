@@ -17,7 +17,7 @@
       }).addTo(map);
     
       // Cargar el SVG como overlay
-      fetch("plano_portofino.svg")
+      fetch("https://sarif-arg.github.io/plano_portofino.svg")
         .then(res => res.text())
         .then(svgText => {
           const parser = new DOMParser();
