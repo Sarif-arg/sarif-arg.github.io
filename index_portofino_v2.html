@@ -44,52 +44,36 @@
         const parser = new DOMParser();
         const doc = parser.parseFromString(txt, 'image/svg+xml');
         const svgEl = doc.documentElement;
-
-        // Aseguramos que el overlay se estire a los bounds sin deformaciones raras
+    
         svgEl.setAttribute('viewBox', `0 0 ${originalWidth} ${originalHeight}`);
         svgEl.setAttribute('preserveAspectRatio', 'none');
-
-        // Montamos el SVG como overlay interactivo
+    
         const overlay = L.svgOverlay(svgEl, bounds).addTo(map);
-
-        overlay.on('add', () => {
-          const root = overlay.getElement(); // <svg> montado
+    
+        // En vez de overlay.on('add'), esperamos un toque y buscamos el <svg>
+        setTimeout(() => {
+          const root = overlay.getElement();
           console.log("SVG montado:", root);
-          // Seleccionamos posibles figuras de lotes (ajustá el selector si usás otra etiqueta/clase)
+    
+          if (!root) {
+            console.error("No encontré el root del SVG");
+            return;
+          }
+    
           const terrenos = root.querySelectorAll('polygon, path, rect');
           console.log("Cantidad de terrenos detectados:", terrenos.length);
-
+    
           terrenos.forEach((el, i) => {
             console.log(`Terreno #${i} -> id:`, el.getAttribute('id'));
             el.style.cursor = 'pointer';
-
-            // Hover: leve resaltado del borde
-            el.addEventListener('mouseenter', () => {
-              console.log("Hover en:", el.getAttribute('id'));
-              el.dataset._oldStroke = el.getAttribute('stroke') || '';
-              el.dataset._oldStrokeWidth = el.getAttribute('stroke-width') || '';
-              el.setAttribute('stroke', '#111');
-              el.setAttribute('stroke-width', '2');
-            });
-            el.addEventListener('mouseleave', () => {
-              console.log("Salir de hover en:", el.getAttribute('id'));
-              if (el.dataset._oldStroke !== undefined) el.setAttribute('stroke', el.dataset._oldStroke);
-              if (el.dataset._oldStrokeWidth !== undefined) el.setAttribute('stroke-width', el.dataset._oldStrokeWidth);
-            });
-
-            // Click: abrimos popup con info básica
+            el.style.pointerEvents = 'all'; // aseguramos que reciba clicks
+    
             el.addEventListener('click', (ev) => {
-              console.log("Click en:", el.getAttribute('id'));
-              const id = el.getAttribute('id') || '—';
-              const medidas = el.getAttribute('data-medidas') || '—';
-
-              const fillColor = getFillColor(el);
-              const estado = estadoDesdeFill(fillColor);
-
-              // Convertimos posición del mouse a latlng del mapa
-              const rect = map.getContainer().getBoundingClientRect();
-              const containerPt = L.point(ev.clientX - rect.left, ev.clientY - rect.top);
-              const latlng = map.containerPointToLatLng(containerPt);
+              console.log("Click en:", el.getAttribute('id') || '(sin id)');
+            });
+          });
+        }, 500); // medio segundo de delay
+      });
 
               L.popup({ autoPan: true })
                 .setLatLng(latlng)
