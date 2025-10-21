@@ -1,89 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Descargar SVG como PDF</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descargar Planos Terranova</title>
+
+  <!-- Librerías necesarias -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.10/umd.min.js"></script>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-      padding-top: 1px;
-    }
-
-    .button-container {
       display: flex;
       justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: row;
+      height: 100vh;
+      margin: 0;
+      background: #f9fafb;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      gap: 15px;
     }
 
     button {
-      background-color: #1e1e1e;
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: 600;
       color: white;
       border: none;
-      padding: 12px 24px;
-      font-size: 16px;
-      border-radius: 6px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
-      margin: 10px 0;
+      transition: transform 0.2s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
 
     button:hover {
-      background-color: #333;
+      transform: translateY(-2px);
     }
 
+    #btnComercial {
+      background-color: #007bff;
+    }
+
+    #btnComercial:hover {
+      background-color: #0056b3;
+    }
+
+    #btnMensura {
+      background-color: #28a745;
+    }
+
+    #btnMensura:hover {
+      background-color: #1e7e34;
+    }
+
+    /* Responsivo pero sin romper el formato horizontal */
     @media (max-width: 600px) {
-      .button-container {
-        flex-direction: column;
-        align-items: center;
+      body {
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 10px;
       }
+
+      button {
+        flex: 1 1 auto;
+        min-width: 140px;
+        font-size: 15px;
+        padding: 12px 20px;
+      }
+    }
+
+    /* Mapa oculto (no visible en la interfaz) */
+    #map {
+      position: fixed;
+      top: -9999px;
+      left: -9999px;
+      width: 3000px;
+      height: 1053px;
+      visibility: hidden;
+      z-index: -1;
     }
   </style>
 </head>
+
 <body>
-  <div class="button-container">
-    <button onclick="descargarPDF()">Descargar Plano Comercial</button>
-    <button onclick="descargarMensura()">Descargar Plano con Mensura</button>
-  </div>
+  <button id="btnComercial">Descargar Plano Comercial</button>
+  <button id="btnMensura">Descargar Plano con Mensura</button>
+
+  <!-- Mapa invisible -->
+  <div id="map"></div>
 
   <script>
-    async function descargarPDF() {
-      try {
-        const svgUrl = 'https://sarif-arg.github.io/plano_terranova.svg';
-        const response = await fetch(svgUrl);
-        const svgText = await response.text();
+    // Configuración del mapa oculto
+    const originalWidth = 3000;
+    const originalHeight = 1053;
+    const bounds = [[0, 0], [originalHeight, originalWidth]];
 
-        const canvas = document.createElement('canvas');
-        canvas.width = 2000;
-        canvas.height = 2828;
-        const context = canvas.getContext('2d');
+    const map = L.map("map", {
+      crs: L.CRS.Simple,
+      zoomSnap: 0.5,
+      minZoom: -5,
+      zoomControl: false,
+      attributionControl: false,
+    });
 
-        const v = await window.canvg.Canvg.from(context, svgText);
-        await v.render();
+    L.imageOverlay(
+      "https://sarif-arg.github.io/actualizador-de-precios/plano_terranova_base.svg",
+      bounds
+    ).addTo(map);
 
-        const imgData = canvas.toDataURL('image/png');
-        const { jsPDF } = window.jspdf;
-        const pdf = new jsPDF({ orientation: 'landscape', unit: 'px', format: [canvas.width, canvas.height] });
-        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
-        pdf.save('plano_terranova.pdf');
-      } catch (error) {
-        console.error('Error al generar el PDF:', error);
-        alert('Ocurrió un error al generar el PDF. Revisa la consola.');
-      }
-    }
+    map.fitBounds(bounds);
 
-    function descargarMensura() {
-      const enlace = document.createElement('a');
-      enlace.href = 'https://sarif-arg.github.io/plano_terranova_mensura.pdf';
-      enlace.download = 'plano_terranova_mensura.pdf';
-      document.body.appendChild(enlace);
-      enlace.click();
-      document.body.removeChild(enlace);
-    }
+    // Cargar y agregar GeoJSON
+    fetch("https://sarif-arg.github.io/actualizador-de-precios/terranova.geojson")
+      .then(res => res.json())
+      .then(data => {
+        L.geoJSON(data, {
+          style: {
+            color: "#fff",
+            weight: 1,
+            fillOpacity: 0.85,
+          },
+        }).addTo(map);
+      });
+
+    // Descargar Plano Comercial (renderizado del mapa invisible)
+    document.getElementById("btnComercial").addEventListener("click", () => {
+      html2canvas(document.getElementById("map"), {
+        useCORS: true,
+        scale: 2
+      }).then(canvas => {
+        const imgData = canvas.toDataURL("image/png");
+        const pdf = new jspdf.jsPDF({
+          orientation: "landscape",
+          unit: "px",
+          format: [canvas.width, canvas.height]
+        });
+        pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+        pdf.save("plano_terranova_comercial.pdf");
+      });
+    });
+
+    // Descargar plano de mensura (PDF estático)
+    document.getElementById("btnMensura").addEventListener("click", () => {
+      window.open("https://sarif-arg.github.io/plano_terranova_mensura.pdf", "_blank");
+    });
   </script>
 </body>
 </html>
