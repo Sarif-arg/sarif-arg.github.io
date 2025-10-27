@@ -85,84 +85,8 @@
 </head>
 
 <body>
-  <button id="btnComercial">Descargar Plano Comercial</button>
   <button id="btnMensura">Descargar Plano con Mensura</button>
-
-  <!-- Mapa invisible -->
-  <div id="map"></div>
-
 <script>
-  // Configuración del mapa invisible
-  const originalWidth = 2000;  // tu ancho real del plano
-  const originalHeight = 2828; // tu alto real del plano
-  const bounds = [[0, 0], [originalHeight, originalWidth]];
-
-  const map = L.map("map", {
-    crs: L.CRS.Simple,
-    zoomSnap: 0.5,
-    zoomControl: false,
-    attributionControl: false,
-  });
-
-  L.imageOverlay(
-    "https://sarif-arg.github.io/actualizador-de-precios/plano_terranova_base.svg",
-    bounds
-  ).addTo(map);
-
-  map.fitBounds(bounds);
-
-  // Cargar y agregar GeoJSON con color de lotes
-  fetch("https://sarif-arg.github.io/actualizador-de-precios/terranova.geojson")
-    .then(res => res.json())
-    .then(data => {
-      L.geoJSON(data, {
-        style: {
-          color: "#ffffff",
-          weight: 0.8,
-          fillOpacity: 0.85,
-        },
-      }).addTo(map);
-    });
-
-  // Espera a que todo esté renderizado antes de permitir descarga
-  let mapaListo = false;
-  map.whenReady(() => {
-    setTimeout(() => { mapaListo = true; }, 5000); // pequeña espera de seguridad
-  });
-
-  // Descargar plano comercial
-  document.getElementById("btnComercial").addEventListener("click", async () => {
-    if (!mapaListo) {
-      alert("Esperá un momento que el plano termine de cargar...");
-      return;
-    }
-
-    const mapElement = document.getElementById("map");
-    const canvas = await html2canvas(mapElement, {
-      useCORS: true,
-      scale: 1.2, // suficiente calidad, sin gigantismo
-      backgroundColor: null, // mantiene fondo transparente
-    });
-
-    const imgData = canvas.toDataURL("image/jpeg", 0.92);
-    const pdf = new jspdf.jsPDF({
-      orientation: "portrait",
-      unit: "px",
-      format: [originalWidth, originalHeight],
-    });
-
-    pdf.addImage(imgData, "JPEG", 0, 0, originalWidth, originalHeight);
-
-    // Footer con fecha y título
-    const fecha = new Date().toLocaleDateString("es-AR", { year: "numeric", month: "long", day: "numeric" });
-    pdf.setFontSize(18);
-    pdf.text("Terranova – Plano Comercial", 40, 40);
-    pdf.setFontSize(12);
-    pdf.text(`Generado el ${fecha}`, 40, 65);
-
-    pdf.save("plano_terranova_comercial.pdf");
-  });
-
   // Descargar plano con mensura (PDF estático)
   document.getElementById("btnMensura").addEventListener("click", () => {
     window.open("https://sarif-arg.github.io/plano_terranova_mensura.pdf", "_blank");
