@@ -4,7 +4,7 @@
    data-name="Capa 2"
    viewBox="0 0 1518.55 1218.8348"
    version="1.1"
-   sodipodi:docname="plano_rosedal (1).svg"
+   sodipodi:docname="plano_rosedal.svg"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    width="1518.55"
    height="1218.8347"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
-     inkscape:zoom="0.49355043"
-     inkscape:cx="774.99679"
-     inkscape:cy="570.35712"
-     inkscape:window-width="1366"
-     inkscape:window-height="697"
-     inkscape:window-x="1912"
-     inkscape:window-y="200"
+     inkscape:zoom="0.7868604"
+     inkscape:cx="604.93577"
+     inkscape:cy="550.92365"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="Capa_2" />
   <defs
@@ -7726,7 +7726,7 @@
      id="path54067"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="opacity:1;fill:#d40000;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+     style="opacity:1;fill:#55d400;fill-opacity:1;stroke:#ffffff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
      d="m 898.90249,362.94707 -42.03257,50.99727 16.30125,13.47871 42.03996,-51.04337 z"
      id="path54068"
      sodipodi:nodetypes="ccccc" />
